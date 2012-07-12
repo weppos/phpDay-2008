@@ -1,0 +1,40 @@
+= Zend Framework ed i Web Service (phpDay 2008)
+
+This package contains a collection of various scripts created for my "Zend Framework ed i Web Service" talk at phpDay 2008.
+Visit my blog (www.simonecarletti.com) or phpDay website (www.phpday.it) for more information.
+
+- http://www.simonecarletti.it/blog/2008/05/zend-framework-ed-i-web-service/
+- http://www.slideshare.net/weppos/zendframework-e-web-service
+
+Simone Carletti
+weppos@weppos.net
+
+== Passwords
+
+First of all create a file called keys.private and define the following constants in order to use the scripts included in this package.
+
+    <?php
+    
+    define('AKISMET_API_KEY', '');
+    
+    define('DELICIOUS_USERNAME', '');
+    define('DELICIOUS_PASSWORD', '');
+    
+    define('TECHNORATI_API_KEY', '');
+    
+== Zend Framework Library
+
+All scripts in this package require a valid Zend Framework (1.5) distribution.
+If you don't have one, download the latest from http://framework.zend.com/ and decompress the archive into your local hard disk. Then, change the constant CHANGEME_ZFPATH to point to your zend framework local folder.
+    
+== Command line scripts
+
+All files ending with .cli.php are intended to be run from command line.
+All other scripts can be run both from a command line or a web browser.
+
+== License
+
+Copyright (c) 2008 Simone Carletti
+
+The content of this repository is published under the Attribution-Share Alike Unported Creative Common License.
+http://creativecommons.org/licenses/by-sa/3.0/
